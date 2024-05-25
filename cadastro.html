@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+            h1{
+                color: aqua;
+                text-shadow: 2px 2px 4px rgba(red, green, blue, alpha);
+                text-overflow: ellipsis;
+            }
+            body{ 
+                color: rgb(0, 0, 0);
+                align-content: center;
+                text-align: center;
+                background: linear-gradient(rgb(180, 29, 29),rgb(66, 10, 129) );
+            }
+            form{ 
+                background-color: rgb(49, 31, 128);
+                padding: auto;
+                display: inline-block;
+                border: 2px solid rgb(42, 94, 136);
+                margin: 20px; 
+            }
+            button{
+                background-color: aqua;
+                
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Cadastro</h1>
+        <form action="sucesso.html" > <!-- Formulário -->
+            <label for="nome">Nome</label> <!-- Rotulo de Campo de texto -->
+            <input name="nome" type="text"/> <!-- Campo de texto -->
+            <br/> <!-- Quebra de linha -->
+            <br>
+            <label for="email">Email</label> <!-- Rotulo de Campo de texto -->
+            <input name="email" type="email"/> <!-- Campo de texto -->
+            <br/> <!-- Quebra de linha -->
+            <br>
+            <label for="senha">Senha</label> <!-- Rotulo de Campo de texto -->
+            <input name="senha" type="password"/> <!-- Campo de texto -->
+            <br>
+            <br>
+            <label for="data de nacimento">data de nacimento</label>
+            <input type="date">
+            <br/> <!-- Quebra de linha -->
+            <br>
+            <input type="submit" value="Cadastrar"/> <!-- Botão de submissão -->       
+            <input type="reset" value="Limpar"/> <!-- Botão de limpeza -->
+            <br>
+            <br>
+        </form>
+    </body>
+</html>
